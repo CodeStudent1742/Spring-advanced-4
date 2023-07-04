@@ -4,7 +4,7 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
-group = 'com.kodilla'
+group = 'com.csvconverter'
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -29,6 +29,8 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+
 sourceSets {
     main {
         resources {

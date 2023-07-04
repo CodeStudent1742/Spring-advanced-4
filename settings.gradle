@@ -8,4 +8,5 @@ pluginManagement {
 rootProject.name = 'spring-advance-4'
 include 'proxy'
 include 'csv-converter'
+include 'csv-converter-task'
 
